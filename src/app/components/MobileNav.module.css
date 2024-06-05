@@ -1,0 +1,64 @@
+/* components/MobileNav.module.css */
+.nav {
+  position: relative;
+}
+
+.menuIcon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 30px;
+  height: 24px;
+  justify-content: space-between;
+}
+
+.bar {
+  height: 4px;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.bar2 {
+  opacity: 0;
+}
+
+.bar3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+.menu li {
+  border-bottom: 1px solid #ddd;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.menu li a:hover {
+  background-color: #f0f0f0;
+}
+
+.showMenu {
+  display: flex;
+}

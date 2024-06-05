@@ -1,5 +1,16 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/navbar/page";
+import Hero from "./components/Hero/page";
+import SectionOne from "./components/SectionOne/page";
+import SectionThree from "./components/Section3/page";
+import SectionFour from "./components/section 4/page";
+import SectionFive from "./components/section 5/page";
+import SectionSix from "./components/Section 6/page";
+import SectionSeven from "./components/section 7/page";
+import Footer from "./components/Footer/page";
+import MobileNavigattion from "./components/MobileNavigattion/page";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +22,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Navbar />
+       <MobileNavigattion />
+        <Hero />
+        <SectionOne />
+        <SectionThree />
+        <SectionFour />
+        <SectionFive />
+        <SectionSix />
+        <SectionSeven />
+        <Footer />
+        {children}</body>
     </html>
   );
 }
