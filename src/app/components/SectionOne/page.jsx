@@ -3,7 +3,7 @@ import React from 'react'
 function SectionOne() {
   return (
     <div className='w-[100vw]'>
-      <h1 className='text-4xl font-bold mt-[1100px] md:mt-[850px] ml-[50px] w-[400px] md:ml-[370px]'>Four Key Questions Answered By CleverBook</h1>
+      <h1 className='text-4xl font-bold mt-[1100px] md:mt-[850px] ml-[50px] w-[400px] md:w-[800px] md:ml-[370px]'>Four Key Questions Answered By CleverBook</h1>
       <div className=' flex-row md:flex  w-[1000vw]'><div className="card w-[300px] h-[320px] bg-base-100 shadow-xl ml-[50px] mt-6 bg-purple-100 rounded-xl ">
   <div className="card-body absolute">
     <div><img className='w-[50px] ml-[30px] mt-[20px] ' src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63f63ee54595853ca5e31682_what%20to%20orderr%20(1).svg" alt="" srcset="" /></div>
